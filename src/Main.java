@@ -109,21 +109,28 @@ public class Main {
 
         }
 
-//        FOR LOOP is the same as JS
-//        CONTINUE AND BREAK
-        String userInput ="";
-        Scanner scanner = new Scanner(System.in);
-//        while(!userInput.equals("quit")){//unused
-        while(true){
-            System.out.print("Input: ");
-            userInput = scanner.nextLine();
-            if(userInput.equals("quit"))
-                break;
-            if(userInput.equals("pass"))
-                continue;
-            System.out.println(userInput);
+////        FOR LOOP is the same as JS
+////        CONTINUE AND BREAK
+//        String userInput ="";
+//        Scanner scanner = new Scanner(System.in);
+////        while(!userInput.equals("quit")){//unused
+//        while(true){
+//            System.out.print("Input: ");
+//            userInput = scanner.nextLine();
+//            if(userInput.equals("quit"))
+//                break;
+//            if(userInput.equals("pass"))
+//                continue;
+//            System.out.println(userInput);
+//        }
+//            FOR EACH
+        String[] fruits = {"Apple", "Orange", "Mango"};
+        for (int i = 0; i < fruits.length; i++) {
+            System.out.println(fruits[i]);
         }
-
+        for (String fruit: fruits) {
+            System.out.println(fruit);
+        }
     }
 
 }

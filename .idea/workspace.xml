@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66851e2a-60f5-41b1-9f27-b73c6145977d" name="Changes" comment="Switch case">
+    <list default="true" id="66851e2a-60f5-41b1-9f27-b73c6145977d" name="Changes" comment="While true, continue and break">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673279035176</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="While true, continue and break">
+      <created>1673280777017</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673280777021</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +169,7 @@
     <MESSAGE value="Mini project" />
     <MESSAGE value="Ternary and conditionals" />
     <MESSAGE value="Switch case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Switch case" />
+    <MESSAGE value="While true, continue and break" />
+    <option name="LAST_COMMIT_MESSAGE" value="While true, continue and break" />
   </component>
 </project>
