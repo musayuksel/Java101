@@ -22,6 +22,6 @@ public class Main {
         System.out.println("tomorrow is "+ tomorrow);//both of them are the same object
 
         String string1 = new String("musa");//redundant
-        String betterOne = "musa";
+        String betterOne = "I started a new project ${today}";//template literal
     }
 }
