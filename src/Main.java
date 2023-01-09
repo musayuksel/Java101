@@ -40,6 +40,21 @@ public class Main {
 //        CONSTANTS
         final float PI = 3.14F;
 
+//        Arithmetic Expressions
+         double result  = (double)10/ (double) PI;
+        System.out.println(result);
+
+        int number1 = 1;
+        System.out.println(number1++);//first console 1 and increase
+        System.out.println(++number1);//first increase then console
+        System.out.println(number1+=5);// console 8
+        //Implicit casting
+        short shortNum = 1;
+        double biggerNum = shortNum + 4; // it will convert shortNum to double
+        //byte > short > int > long > float > double
+        System.out.println(biggerNum);
+        //explicit casting
+        int latestResult = (int)biggerNum +4;
     }
 
 }
