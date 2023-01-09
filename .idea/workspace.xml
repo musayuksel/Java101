@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66851e2a-60f5-41b1-9f27-b73c6145977d" name="Changes" comment="Primitive types sizes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="66851e2a-60f5-41b1-9f27-b73c6145977d" name="Changes" comment="Reference types">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673269172986</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Reference types">
+      <created>1673269586766</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673269586766</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +104,7 @@
     <MESSAGE value="Add hello world" />
     <MESSAGE value="Primitive types" />
     <MESSAGE value="Primitive types sizes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primitive types sizes" />
+    <MESSAGE value="Reference types" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reference types" />
   </component>
 </project>
