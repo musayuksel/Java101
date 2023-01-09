@@ -63,32 +63,39 @@ public class Main {
 //        System.out.print("Type your input: ");
 //        String newInput = scanner.nextLine().trim();//take all line not one token///
 //        System.out.println("Your input is : "+newInput);
-//        MINI PROJECT
-        Scanner scanner1 = new Scanner(System.in);
-        System.out.print("Principal:");
-        int principal = (scanner1.nextInt());
+////        MINI PROJECT
+//        Scanner scanner1 = new Scanner(System.in);
+//        System.out.print("Principal:");
+//        int principal = (scanner1.nextInt());
+//
+//
+//        System.out.print("Annual Interest Rate:");
+//        float annualInterest = scanner1.nextFloat();
+//        final byte MONTH_IN_YEAR =12;
+//        final byte PERCENT =100;
+//        float monthlyInterest = annualInterest/MONTH_IN_YEAR/PERCENT;
+//
+//
+//        System.out.print("Period (Years):");
+//        byte year = scanner1.nextByte();
+//        int months = year*MONTH_IN_YEAR;
+//
+//
+//
+//        double mortgage = principal *(
+//                (monthlyInterest * Math.pow((1 + monthlyInterest), months))
+//                 /(Math.pow((1+monthlyInterest),months)-1)
+//        );
+//        String monthlyPayment = NumberFormat.getCurrencyInstance().format(mortgage);
+//
+//        System.out.println("Mortgage: "+ monthlyPayment);
+
+//        TERNARY OPERATOR & Conditional
+        int income = 120_000;
+        boolean isHighIncome = income > 100_000;//same as JS
+        String className = isHighIncome ? "First" : "Economy";//Same as js
 
 
-        System.out.print("Annual Interest Rate:");
-        float annualInterest = scanner1.nextFloat();
-        final byte MONTH_IN_YEAR =12;
-        final byte PERCENT =100;
-        float monthlyInterest = annualInterest/MONTH_IN_YEAR/PERCENT;
-
-
-        System.out.print("Period (Years):");
-        byte year = scanner1.nextByte();
-        int months = year*MONTH_IN_YEAR;
-
-
-
-        double mortgage = principal *(
-                (monthlyInterest * Math.pow((1 + monthlyInterest), months))
-                 /(Math.pow((1+monthlyInterest),months)-1)
-        );
-        String monthlyPayment = NumberFormat.getCurrencyInstance().format(mortgage);
-
-        System.out.println("Mortgage: "+ monthlyPayment);
 
     }
 
