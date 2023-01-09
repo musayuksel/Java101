@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66851e2a-60f5-41b1-9f27-b73c6145977d" name="Changes" comment="Arithmetic Expressions">
+    <list default="true" id="66851e2a-60f5-41b1-9f27-b73c6145977d" name="Changes" comment="Reading input from user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -107,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673272685733</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Reading input from user">
+      <created>1673273524815</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673273524815</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +137,7 @@
     <MESSAGE value="Reference types- string" />
     <MESSAGE value="Constants" />
     <MESSAGE value="Arithmetic Expressions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arithmetic Expressions" />
+    <MESSAGE value="Reading input from user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reading input from user" />
   </component>
 </project>

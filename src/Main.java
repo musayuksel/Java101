@@ -1,3 +1,4 @@
+import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;
@@ -58,10 +59,37 @@ public class Main {
 //        int latestResult = (int)biggerNum +4;
 
 //        READING INPUT
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Type your input: ");
-        String newInput = scanner.nextLine().trim();//take all line not one token///
-        System.out.println("Your input is : "+newInput);
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Type your input: ");
+//        String newInput = scanner.nextLine().trim();//take all line not one token///
+//        System.out.println("Your input is : "+newInput);
+//        MINI PROJECT
+        Scanner scanner1 = new Scanner(System.in);
+        System.out.print("Principal:");
+        int principal = (scanner1.nextInt());
+
+
+        System.out.print("Annual Interest Rate:");
+        float annualInterest = scanner1.nextFloat();
+        final byte MONTH_IN_YEAR =12;
+        final byte PERCENT =100;
+        float monthlyInterest = annualInterest/MONTH_IN_YEAR/PERCENT;
+
+
+        System.out.print("Period (Years):");
+        byte year = scanner1.nextByte();
+        int months = year*MONTH_IN_YEAR;
+
+
+
+        double mortgage = principal *(
+                (monthlyInterest * Math.pow((1 + monthlyInterest), months))
+                 /(Math.pow((1+monthlyInterest),months)-1)
+        );
+        String monthlyPayment = NumberFormat.getCurrencyInstance().format(mortgage);
+
+        System.out.println("Mortgage: "+ monthlyPayment);
+
     }
 
 }
