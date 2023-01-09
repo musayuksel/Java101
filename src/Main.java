@@ -95,6 +95,19 @@ public class Main {
         boolean isHighIncome = income > 100_000;//same as JS
         String className = isHighIncome ? "First" : "Economy";//Same as js
 
+//        SWITCH
+        String role = "admin";
+        switch(role){
+            case "admin":
+                System.out.println("welcome admin...");
+                break;
+            case "moderator":
+                System.out.println("welcome moderator...");
+                break;
+            default:
+                System.out.println("welcome guest");
+
+        }
 
 
     }
