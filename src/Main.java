@@ -37,6 +37,9 @@ public class Main {
         int[][][] multiD = new int[2][3][4];
         System.out.println(Arrays.deepToString(multiD));//use deepToString
 
+//        CONSTANTS
+        final float PI = 3.14F;
+
     }
 
 }
