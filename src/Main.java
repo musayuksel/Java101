@@ -109,6 +109,20 @@ public class Main {
 
         }
 
+//        FOR LOOP is the same as JS
+//        CONTINUE AND BREAK
+        String userInput ="";
+        Scanner scanner = new Scanner(System.in);
+//        while(!userInput.equals("quit")){//unused
+        while(true){
+            System.out.print("Input: ");
+            userInput = scanner.nextLine();
+            if(userInput.equals("quit"))
+                break;
+            if(userInput.equals("pass"))
+                continue;
+            System.out.println(userInput);
+        }
 
     }
 
