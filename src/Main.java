@@ -1,4 +1,4 @@
-import java.awt.*;
+import java.util.Arrays;
 import java.util.Date;
 
 public class Main {
@@ -23,5 +23,20 @@ public class Main {
 
         String string1 = new String("musa");//redundant
         String betterOne = "I started a new project ${today}";//template literal
+//        One D ARRAYS
+        int[] oneDArray = new int[5];//size of array
+        //java has fix length
+        String readableArray = Arrays.toString(oneDArray);
+        System.out.println(readableArray);//all default values are 0, or empty
+        int[] anotherWay = {1,2,3,4,5};
+        String readableArray2 = Arrays.toString(anotherWay);
+        System.out.println(readableArray2);
+//        Multi Dimensional ARRAYS
+        int[][] twoDArray = new int[2][3];// 2 rows, 3 column
+        int[][] another2D = {{1},{3}};
+        int[][][] multiD = new int[2][3][4];
+        System.out.println(Arrays.deepToString(multiD));//use deepToString
+
     }
+
 }
