@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.Date;
 
 public class Main {
@@ -13,5 +14,11 @@ public class Main {
         char oneChar= 'a';//single quote // 2 byte
         boolean isTrue = false; // 1 byte
 
+
+//        Reference types
+        Date today = new Date();
+        System.out.println("today is " + today);
+        Date tomorrow = today;
+        System.out.println("tomorrow is "+ tomorrow);//both of them are the same object
     }
 }
