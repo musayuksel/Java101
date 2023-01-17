@@ -91,23 +91,23 @@ public class Main {
 //        System.out.println("Mortgage: "+ monthlyPayment);
 
 //        TERNARY OPERATOR & Conditional
-        int income = 120_000;
-        boolean isHighIncome = income > 100_000;//same as JS
-        String className = isHighIncome ? "First" : "Economy";//Same as js
-
-//        SWITCH
-        String role = "admin";
-        switch(role){
-            case "admin":
-                System.out.println("welcome admin...");
-                break;
-            case "moderator":
-                System.out.println("welcome moderator...");
-                break;
-            default:
-                System.out.println("welcome guest");
-
-        }
+//        int income = 120_000;
+//        boolean isHighIncome = income > 100_000;//same as JS
+//        String className = isHighIncome ? "First" : "Economy";//Same as js
+//
+////        SWITCH
+//        String role = "admin";
+//        switch(role){
+//            case "admin":
+//                System.out.println("welcome admin...");
+//                break;
+//            case "moderator":
+//                System.out.println("welcome moderator...");
+//                break;
+//            default:
+//                System.out.println("welcome guest");
+//
+//        }
 
 ////        FOR LOOP is the same as JS
 ////        CONTINUE AND BREAK
@@ -124,13 +124,20 @@ public class Main {
 //            System.out.println(userInput);
 //        }
 //            FOR EACH
-        String[] fruits = {"Apple", "Orange", "Mango"};
-        for (int i = 0; i < fruits.length; i++) {
-            System.out.println(fruits[i]);
-        }
-        for (String fruit: fruits) {
-            System.out.println(fruit);
-        }
+//        String[] fruits = {"Apple", "Orange", "Mango"};
+//        for (int i = 0; i < fruits.length; i++) {
+//            System.out.println(fruits[i]);
+//        }
+//        for (String fruit: fruits) {
+//            System.out.println(fruit);
+//        }
+
+
+        Pen pen1 = new Pen();
+        System.out.println(pen1.color);
+        System.out.println(pen1.isClicked);
+        pen1.click();
+        System.out.println(pen1.isClicked);
     }
 
 }
