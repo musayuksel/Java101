@@ -19,5 +19,15 @@ public class SuvCar extends Car {//SuvCar is a child class of Car => suvCar is a
     public String getCarInformation() {
         return "Make: " + make + ". Model: " + model + ". Year: " + year + ". Towing Capacity(Kg): " + towingCapacityKg + ".";
     }
+
+    @Override
+    public String toString() {//we can override the toString method
+        return "SuvCar{" +
+                "towingCapacityKg=" + towingCapacityKg +
+                ", make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                '}';
+    }
 }
 

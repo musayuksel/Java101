@@ -148,7 +148,7 @@ public class Main {
                 2020,
                 2000
         );
-        System.out.println(suvCar.getCarInformation());
+        System.out.println(suvCar.toString());
     }
 
 }
