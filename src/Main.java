@@ -1,3 +1,6 @@
+import inheritance.Car;
+import inheritance.SuvCar;
+
 import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
@@ -131,13 +134,21 @@ public class Main {
 //        for (String fruit: fruits) {
 //            System.out.println(fruit);
 //        }
+//
+//
+//        Pen pen1 = new Pen();
+//        System.out.println(pen1.color);
+//        System.out.println(pen1.isClicked);
+//        pen1.click();
+//        System.out.println(pen1.isClicked);
 
-
-        Pen pen1 = new Pen();
-        System.out.println(pen1.color);
-        System.out.println(pen1.isClicked);
-        pen1.click();
-        System.out.println(pen1.isClicked);
+        SuvCar suvCar = new SuvCar(
+                "Toyota",
+                "4Runner",
+                2020,
+                2000
+        );
+        System.out.println(suvCar.getCarInformation());
     }
 
 }
