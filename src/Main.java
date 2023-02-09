@@ -142,6 +142,13 @@ public class Main {
 //        pen1.click();
 //        System.out.println(pen1.isClicked);
 
+
+        //STREAMS
+        int [] numbers = {1,2,3,4,5};
+        Arrays.stream(numbers)
+                .map(num->num*2)//MAP like JS
+                .filter(num->num>3).//Filter like JS
+                forEach(num-> System.out.println(num));//forEach like JS
         SuvCar suvCar = new SuvCar(
                 "Toyota",
                 "4Runner",
