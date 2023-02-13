@@ -1,3 +1,6 @@
+import abstraction.Circle;
+import abstraction.GraphicObject;
+import abstraction.Rectangle;
 import inheritance.Car;
 import inheritance.SuvCar;
 
@@ -143,19 +146,25 @@ public class Main {
 //        System.out.println(pen1.isClicked);
 
 
-        //STREAMS
-        int [] numbers = {1,2,3,4,5};
-        Arrays.stream(numbers)
-                .map(num->num*2)//MAP like JS
-                .filter(num->num>3).//Filter like JS
-                forEach(num-> System.out.println(num));//forEach like JS
-        SuvCar suvCar = new SuvCar(
-                "Toyota",
-                "4Runner",
-                2020,
-                2000
-        );
-        System.out.println(suvCar.toString());
+//        //STREAMS
+//        int [] numbers = {1,2,3,4,5};
+//        Arrays.stream(numbers)
+//                .map(num-> num * 2)//MAP like JS
+//                .filter(num->num>3).//Filter like JS
+//                forEach(System.out::println);//forEach like JS
+//        SuvCar suvCar = new SuvCar(
+//                "Toyota",
+//                "4Runner",
+//                2020,
+//                2000
+//        );
+//        System.out.println(suvCar.toString());
+
+      Circle circle =new Circle();
+      circle.draw();
+
+      Rectangle rectangle = new Rectangle();
+      rectangle.draw();
     }
 
 }
