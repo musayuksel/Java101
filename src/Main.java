@@ -1,3 +1,4 @@
+import Interfaces.Honda;
 import abstraction.Circle;
 import abstraction.GraphicObject;
 import abstraction.Rectangle;
@@ -160,11 +161,17 @@ public class Main {
 //        );
 //        System.out.println(suvCar.toString());
 
-      Circle circle =new Circle();
-      circle.draw();
+//      Circle circle =new Circle();
+//      circle.draw();
+//
+//      Rectangle rectangle = new Rectangle();
+//      rectangle.draw();
 
-      Rectangle rectangle = new Rectangle();
-      rectangle.draw();
+        Honda honda1 = new Honda();
+        honda1.speedUp(5);
+        honda1.speedDown(4);
+
+
     }
 
 }
