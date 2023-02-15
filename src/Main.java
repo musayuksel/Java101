@@ -6,6 +6,7 @@ import inheritance.Car;
 import inheritance.SuvCar;
 
 import java.text.NumberFormat;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;
@@ -167,9 +168,22 @@ public class Main {
 //      Rectangle rectangle = new Rectangle();
 //      rectangle.draw();
 
-        Honda honda1 = new Honda();
-        honda1.speedUp(5);
-        honda1.speedDown(4);
+//      ARRAYLISTS
+        ArrayList<String> foods = new ArrayList<String>();
+        //METHODS
+        foods.add("Hamburger");//PUSH
+        foods.add(0,"Pizza");//add to certain index
+        foods.add("Pasta");
+        foods.add("Pasta2");
+        foods.set(2,"New PASTA");//UPDATE
+        foods.remove(2);//DELETE INDEX 2
+
+
+        foods.forEach(food-> System.out.println(food));
+
+//        Honda honda1 = new Honda();
+//        honda1.speedUp(5);
+//        honda1.speedDown(4);
 
 
     }
