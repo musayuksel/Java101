@@ -168,24 +168,39 @@ public class Main {
 //      Rectangle rectangle = new Rectangle();
 //      rectangle.draw();
 
-//      ARRAYLISTS
-        ArrayList<String> foods = new ArrayList<String>();
-        //METHODS
-        foods.add("Hamburger");//PUSH
-        foods.add(0,"Pizza");//add to certain index
-        foods.add("Pasta");
-        foods.add("Pasta2");
-        foods.set(2,"New PASTA");//UPDATE
-        foods.remove(2);//DELETE INDEX 2
+////      ARRAYLISTS
+//        ArrayList<String> foods = new ArrayList<String>();
+//        //METHODS
+//        foods.add("Hamburger");//PUSH
+//        foods.add(0,"Pizza");//add to certain index
+//        foods.add("Pasta");
+//        foods.add("Pasta2");
+//        foods.set(2,"New PASTA");//UPDATE
+//        foods.remove(2);//DELETE INDEX 2
+//
+//
+//        foods.forEach(food-> System.out.println(food));
 
-
-        foods.forEach(food-> System.out.println(food));
 
 //        Honda honda1 = new Honda();
 //        honda1.speedUp(5);
 //        honda1.speedDown(4);
 
+        overloadedMethod();
+        overloadedMethod("Argument1");
+        overloadedMethod("Argument1", "Argument2");
 
     }
 
+
+//    METHOD OVERLOADED
+    static void overloadedMethod(){
+         System.out.println("Method1");
+    }
+    static void overloadedMethod(String param1){
+        System.out.println("Method with 1 param");
+    }
+    static void overloadedMethod(String param1, String param2){
+        System.out.println("Method with 2 params");
+    }
 }
